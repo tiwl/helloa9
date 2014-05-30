@@ -10,6 +10,6 @@ int main(void) {
 	
 	j = i;
 	
-	return i;
+	return j;
 }
 
