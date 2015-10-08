@@ -171,3 +171,90 @@ Also, https://guides.github.com/features/mastering-markdown/
 
 And, of course emoji! :sparkles: :camel: :boom:
 
+
+
+
+
+
+## Mathematical formulae
+
+Inline math `$E = mc^2$`, another one: `$\dfrac{ \tfrac{1}{2}[1-(\tfrac{1}{2})^n] }{ 1-\tfrac{1}{2} } = s_n$`.
+
+```math
+\oint_C x^3\, dx + 4y^2\, dy
+
+2 = \left(
+ \frac{\left(3-x\right) \times 2}{3-x}
+ \right)
+
+\sum_{m=1}^\infty\sum_{n=1}^\infty\frac{m^2\,n}
+ {3^m\left(m\,3^n+n\,3^m\right)}
+ 
+\phi_n(\kappa) =
+ \frac{1}{4\pi^2\kappa^2} \int_0^\infty
+ \frac{\sin(\kappa R)}{\kappa R}
+ \frac{\partial}{\partial R}
+ \left[R^2\frac{\partial D_n(R)}{\partial R}\right]\,dR
+```
+
+[Mathematical Formulae Syntax](http://meta.wikimedia.org/wiki/Help:Displaying_a_formula)
+
+
+## Flowcharts
+
+```
+graph TD
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+[Flowchart Syntax](http://knsv.github.io/mermaid/flowchart.html)
+
+
+## Sequence diagrams
+
+```
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
+```
+
+[Sequence Diagram Syntax](http://knsv.github.io/mermaid/sequenceDiagram.html)
+
+
+## Gantt diagrams
+
+```
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1, 20d
+    section Another
+    Task in sec      :2014-01-12, 12d
+    anther task      : 24d
+```
+
+[Gantt Diagram Syntax](http://knsv.github.io/mermaid/gantt.html)
+
+
+
+https://github.com/chjj/marked
+
+https://github.com/tylingsoft/markdown-plus
+
+
+https://github.com/github/markup
+
+https://github.com/evilstreak/markdown-js
+
