@@ -1,6 +1,7 @@
 # helloa9
 hello arm9
 
+
 https://help.github.com/articles/markdown-basics/
 
 Paragraphs
@@ -163,4 +164,10 @@ References
 * User/Repository#Num: jlord/sheetsee.js#26
 
 
+
+Also, https://guides.github.com/features/mastering-markdown/
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+And, of course emoji! :sparkles: :camel: :boom:
 
