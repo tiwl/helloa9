@@ -110,6 +110,30 @@ function test() {
 }
 ```
 
+```c
+#include <msp430.h>
+#include <energia.h>
+#define ABC
+struct MyStruct {
+  int flag;
+};
+int main(void) {
+  return 1;
+}
+```
+
+```cpp
+#include <msp430.h>
+#include <energia.h>
+#define ABC
+class MyObj {
+  int foo() {
+  return 1;
+  }
+}
+```
+
+
 Tables
 
 First Header  | Second Header
