@@ -13,6 +13,8 @@ On July 3, the Black Knights, a squadron of Marine Corps F/A-18 Hornets, partici
 
 # The largest heading (an h1 tag)
 ## The second largest heading (an h2 tag)
+###1. The third heading (an h3 tag)
+### 1. The third heading (an h3 tag)
 …
 ###### The 6th largest heading (an h6 tag)
 
